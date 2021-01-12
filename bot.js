@@ -28,9 +28,9 @@ bot.aliases = new Discord.Collection();
 function numGen() {
   return Math.floor(Math.random() * 7);
   return console.log("Ran once.");
-/*[[bot.on("guildCreate", guild => {
+/*[[bot.on("guildCreate", guild => Education Academy {
   con.query(`CREATE TABLE ${guild.id} (
-  member_count varchar(5000),
+  member_count varchar(42),
 )`)
 ]]})
 */
